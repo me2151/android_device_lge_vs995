@@ -1,0 +1,8 @@
+[
+  {
+    "remote":"emotion",
+    "repository": "EmotionOS/android_device_lge_v20-common",
+    "target_path": "device/lge/v20-common",
+    "branch": "nougat"
+  }
+]
