@@ -27,10 +27,10 @@ import com.android.internal.telephony.uicc.IccCardStatus;
  *
  * {@hide}
  */
-public class VS995RIL extends LgeLteRIL implements CommandsInterface {
-    static final String LOG_TAG = "VS995RIL";
+public class VS980RIL extends LgeLteRIL implements CommandsInterface {
+    static final String LOG_TAG = "VS980RIL";
 
-    public VS995RIL(Context context, int preferredNetworkType,
+    public VS980RIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
     }
