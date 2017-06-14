@@ -9,6 +9,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_NAME := xosp_vs995
 
+USE_CHROMIUM := true
+
+ROOT_METHOD := supersu
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v20" \
     PRODUCT_NAME="elsa_vzw_us" \
