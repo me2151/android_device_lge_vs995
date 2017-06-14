@@ -1,12 +1,13 @@
 $(call inherit-product, device/lge/vs995/full_vs995.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/emotion/configs/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_NAME := emotion_vs995
+PRODUCT_NAME := xosp_vs995
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v20" \
