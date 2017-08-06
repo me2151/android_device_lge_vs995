@@ -14,11 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
++LOCAL_DIR := device/lge/vs995
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/vs995/vs995-vendor.mk)
+$(call inherit-product, vendor/lge/vs995/vs995-vendor.mk)
 
 # common v20
 $(call inherit-product, device/lge/v20-common/v20.mk)
